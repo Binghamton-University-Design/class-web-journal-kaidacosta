@@ -1,11 +1,14 @@
-
+wrapper {
+	max-width: 600px
+}
 .grid {
+background-color: #66666;
 grid-gap: 1em;
 margin: 0 0 2em 0;
 
 }
 .grid div {
-background-color:rgba(0,0,0,0.1);
+/*background-color:rgba(0,0,0,0.1);*/
 }
 
 .nice-image {
@@ -38,4 +41,11 @@ text-align: center;
 
 .book-credits {
 	margin-left: 1em;
+}
+.book-footer {
+background-color:;
+}
+.book .width-12-12 {
+	background-color: #000;
+	color: #d6d6d6;
 }
