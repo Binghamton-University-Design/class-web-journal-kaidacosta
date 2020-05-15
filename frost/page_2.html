@@ -1,0 +1,30 @@
+<html>
+
+  <head>
+    <title>The Road Not Taken</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <div id="game-holder">
+        <div id="game">
+          <a class="next-button" title="next" href="page_3.html"><img src="images/next-button.png" /></a>
+          <video autoplay id="myVideo">
+            <source src="images/gif3.mp4" type="video/mp4">
+          </video>
+          <script type='text/javascript'>
+            document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+            function myHandler(e) {
+                $( ".next-button" ).fadeIn();
+            }
+        </script>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+
+</html>
